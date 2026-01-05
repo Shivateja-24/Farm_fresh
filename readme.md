@@ -115,6 +115,14 @@ All APIs were tested using:
 - Frontend development using **React.js** is currently **in progress**.
 - Backend APIs are fully functional and ready for integration.
 
+### Screenshot
+
+![alt text](image.png)
+
+### Deployed link
+
+[text](https://farm-fresh-gules.vercel.app/)
+
 ---
 
 ## 📌 Notes
