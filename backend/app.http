@@ -3,3 +3,35 @@ GET http://localhost:3000/
 
 ###
 GET http://localhost:3000/products
+###
+POST http://localhost:3000/orders
+Content-Type: application/json
+
+{
+    "buyer_name": "John Doe",
+    "delivery_address": "123 Main St, Springfield",
+    "items":[
+        {
+            "product_id": 1,
+            "quantity": 2
+        },
+        {
+            "product_id": 3,
+            "quantity": 1
+        }
+    ]
+}
+
+###
+GET http://localhost:3000/orders/1
+
+###
+GET http://localhost:3000/admin/orders/
+
+###
+PUT http://localhost:3000/admin/orders/1
+Content-Type: application/json
+
+{
+    "delivery_status": "Delivered"
+}
