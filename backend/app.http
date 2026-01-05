@@ -33,5 +33,5 @@ PUT http://localhost:3000/admin/orders/1
 Content-Type: application/json
 
 {
-    "delivery_status": "Delivered"
+    "status": "Delivered"
 }

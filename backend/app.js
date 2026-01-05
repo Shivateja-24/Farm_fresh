@@ -146,7 +146,7 @@ app.post("/orders", async (req, res) => {
       order_id: orderId,
       message: "Order placed successfully",
       total_amount: total_amount,
-      delivery_status: "Pending",
+      status: orders.status,
     });
   } catch (error) {
     console.error(error.message);
