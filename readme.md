@@ -95,6 +95,12 @@ The backend supports:
 
 ---
 
+## Backend Deployment link
+
+- https://farm-fresh-b3ot.onrender.com
+
+---
+
 ## Testing
 
 All APIs were tested using:
