@@ -121,7 +121,7 @@ All APIs were tested using:
 
 ### Deployed link
 
-[text](https://farm-fresh-gules.vercel.app/)
+- https://farm-fresh-gules.vercel.app/
 
 ---
 
